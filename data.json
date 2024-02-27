@@ -1,0 +1,493 @@
+{
+  "profile": [
+    {
+      "id": 1,
+      "name": "admin",
+      "pass": "12345",
+      "email": "admin@gmail.com",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        4,
+        1,
+        3,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "isAdmin": true
+    },
+    {
+      "email": "adminuser@gmail.com",
+      "name": "admin",
+      "pass": "admin",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        3,
+        2
+      ],
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "test",
+      "pass": "test",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        3,
+        4,
+        1,
+        2,
+        9
+      ],
+      "mobile": "1234556789",
+      "dob": "1111-11-11",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "email": "newuser@gmail.com",
+      "name": "newuser",
+      "pass": "newuser",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [],
+      "mobile": "1234512345",
+      "dob": "2023-05-04",
+      "isAdmin": false,
+      "id": 6
+    },
+    {
+      "email": "pranav@gmail.com",
+      "name": "Pranav",
+      "pass": "pranav",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        3,
+        5,
+        6
+      ],
+      "mobile": "8469422311",
+      "dob": "2003-11-22",
+      "isAdmin": false,
+      "id": 7
+    },
+    {
+      "email": "reeya@gmail.com",
+      "name": "reeya",
+      "pass": "reeya",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "mobile": "8469422311",
+      "dob": "2003-01-11",
+      "isAdmin": false,
+      "id": 8
+    },
+    {
+      "email": "raj@yahoo.com",
+      "name": "raj",
+      "pass": "raj",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [
+        6
+      ],
+      "mobile": "1545613215",
+      "dob": "2003-11-22",
+      "isAdmin": false,
+      "id": 9
+    },
+    {
+      "email": "raju@yahoo.com",
+      "name": "raju",
+      "pass": "raj",
+      "image": [
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      ],
+      "class": [],
+      "mobile": "23487454545",
+      "dob": "2203-10-21",
+      "isAdmin": false,
+      "id": 10
+    }
+  ],
+  "classroom": [
+    {
+      "id": 1,
+      "className": "ce-1",
+      "image": 0,
+      "studentArray": [
+        1,
+        5,
+        8
+      ],
+      "createdBy": "admin",
+      "notification": [
+        {
+          "title": "123",
+          "description": "456",
+          "date": "2023-03-22T09:35:00.000Z",
+          "comments": [
+            {
+              "title": "hello this is the admin i am going to live this in the short time can you please reset it",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-03-30T08:35:38.542Z"
+            },
+            {
+              "title": "> working on the multiple card in vkonex > worked on the controller component of mui with react-hook-form",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-03-30T13:22:50.225Z"
+            },
+            {
+              "title": "hello i m reeya j. thanki",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-05-22T07:07:23.208Z"
+            },
+            {
+              "title": "okkk",
+              "commenteby": "reeya@gmail.com",
+              "date": "2023-05-22T07:07:54.623Z"
+            }
+          ]
+        }
+      ],
+      "isRemoved": false
+    },
+    {
+      "id": 2,
+      "className": "it-1",
+      "image": 0,
+      "studentArray": [
+        1,
+        5
+      ],
+      "createdBy": "admin",
+      "notification": [
+        {
+          "title": "this is the notfication 2",
+          "description": "tomorrow is the your exam",
+          "date": "2023-03-17T05:11:41.583Z",
+          "comments": [
+            {
+              "title": "hi",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-07-10T12:42:46.740Z"
+            }
+          ]
+        },
+        {
+          "title": "this is the notification",
+          "description": "this is desc",
+          "date": "2023-03-16T09:26:15.663Z",
+          "comments": [
+            {
+              "title": "this is not working",
+              "commenteby": "adminuser@gmail.com",
+              "date": "2023-03-16T09:26:15.663Z"
+            },
+            {
+              "title": "this is the date",
+              "commenteby": "adminsamasadfni@gmail.com",
+              "date": "2023-03-17T05:29:15.661Z"
+            },
+            {
+              "title": "please give clear desc",
+              "commenteby": "adminuser@gmail.com",
+              "date": "2023-03-17T05:30:23.181Z"
+            },
+            {
+              "title": "this is the new notificaklsdjfkajsdfj",
+              "commenteby": "adminuser@gmail.com",
+              "date": "2023-03-17T05:30:50.805Z"
+            },
+            {
+              "title": "f",
+              "commenteby": "adminuser@gmail.com",
+              "date": "2023-03-17T06:50:07.678Z"
+            },
+            {
+              "title": "hello",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-03-30T06:02:55.602Z"
+            },
+            {
+              "title": "admin",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-03-30T06:42:49.294Z"
+            },
+            {
+              "title": "admin",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-03-30T06:42:53.982Z"
+            }
+          ]
+        },
+        {
+          "title": "asdfasdf",
+          "description": "asdfasdfasdfasd",
+          "date": "2023-05-03T12:55:00.000Z",
+          "comments": []
+        }
+      ],
+      "isRemoved": false
+    },
+    {
+      "id": 3,
+      "className": "comp-1",
+      "image": 0,
+      "studentArray": [
+        1,
+        2
+      ],
+      "createdBy": "admin",
+      "notification": [
+        {
+          "title": "Form Validation",
+          "description": "Formik Implement and its validation",
+          "check-7877": {
+            "title": "ygjgh",
+            "checkedby": [
+              "pranav@gmail.com"
+            ]
+          },
+          "date": "2023-03-28T09:40:00.000Z",
+          "comments": [
+            {
+              "title": "hi",
+              "commenteby": "adminuser@gmail.com",
+              "date": "2023-04-17T12:09:56.812Z"
+            },
+            {
+              "title": "helloooooooooo",
+              "commenteby": "pranav@gmail.com",
+              "date": "2023-05-19T13:13:09.476Z"
+            }
+          ]
+        },
+        {
+          "title": "vbfhhgf",
+          "description": "gfhfghgfh",
+          "date": "1212-12-12T06:18:32.000Z",
+          "comments": []
+        }
+      ],
+      "isRemoved": false
+    },
+    {
+      "className": "IT-2",
+      "description": "This is the group of IT class 2",
+      "image": 0,
+      "studentArray": [
+        1
+      ],
+      "notification": [
+        {
+          "title": "123",
+          "description": "123123",
+          "date": "2023-05-04T09:47:59.221Z",
+          "comments": []
+        },
+        {
+          "title": "this is the task",
+          "description": "thsi is the des",
+          "date": "2023-05-03T06:11:00.000Z",
+          "comments": [
+            {
+              "title": "helooo",
+              "commenteby": "reeya@gmail.com",
+              "date": "2023-08-05T04:18:14.788Z"
+            }
+          ]
+        }
+      ],
+      "createdBy": "admin",
+      "id": 4,
+      "isRemoved": false
+    },
+    {
+      "className": "reeya",
+      "description": "reeya",
+      "image": 2,
+      "studentArray": [
+        1,
+        7
+      ],
+      "notification": [
+        {
+          "title": "hello",
+          "description": "hi",
+          "date": "3222-02-11T23:15:00.000Z",
+          "comments": []
+        }
+      ],
+      "createdBy": "admin",
+      "id": 5,
+      "isRemoved": true
+    },
+    {
+      "className": "CE-2",
+      "description": "This Is For Ce-2 Student",
+      "image": 2,
+      "studentArray": [
+        1,
+        7,
+        9
+      ],
+      "notification": [
+        {
+          "title": "hello student",
+          "description": "how are you",
+          "date": "2023-05-22T07:10:00.000Z",
+          "description-7585": "all done?",
+          "comments": [
+            {
+              "title": "helooooooooo",
+              "commenteby": "reeya@gmail.com",
+              "date": "2023-08-05T04:06:47.886Z"
+            },
+            {
+              "title": "helooooo ",
+              "commenteby": "admin@gmail.com",
+              "date": "2023-08-05T04:09:03.613Z"
+            }
+          ]
+        },
+        {
+          "title": "djchsjcgsdhfjghsdj",
+          "description": "nmscbnsdcbndc",
+          "date": "2003-11-22T06:42:00.000Z",
+          "comments": []
+        }
+      ],
+      "createdBy": "admin",
+      "id": 6
+    },
+    {
+      "className": "rya",
+      "description": "ffhgh",
+      "image": 2,
+      "studentArray": [
+        1
+      ],
+      "notification": [],
+      "createdBy": "admin",
+      "id": 7
+    },
+    {
+      "className": "ananya",
+      "description": "ananya",
+      "image": 0,
+      "studentArray": [
+        1,
+        8
+      ],
+      "notification": [],
+      "createdBy": "admin",
+      "id": 8
+    },
+    {
+      "className": "sgp",
+      "description": "sgp ",
+      "image": 0,
+      "studentArray": [
+        1,
+        5
+      ],
+      "notification": [
+        {
+          "title": "sujal@gmail.com",
+          "description": "python class",
+          "check-384": {
+            "title": "hdsbfhdfgvdsh",
+            "checkedby": []
+          },
+          "description-7564": "fbhdsgfhdfgds",
+          "date": "2003-11-22T05:41:00.000Z",
+          "comments": []
+        }
+      ],
+      "createdBy": "admin",
+      "id": 9
+    },
+    {
+      "className": "ananya",
+      "description": "hgvfxdfgh",
+      "image": 0,
+      "studentArray": [
+        1
+      ],
+      "notification": [],
+      "createdBy": "admin",
+      "id": 10
+    },
+    {
+      "className": "sgp",
+      "description": "jhjfghdhs",
+      "image": 0,
+      "studentArray": [
+        1
+      ],
+      "notification": [],
+      "createdBy": "admin",
+      "id": 11
+    }
+  ],
+  "assests": [],
+  "contact": [
+    {
+      "fullname": {
+        "value": "admin",
+        "valid": true,
+        "options": {
+          "required": true
+        }
+      },
+      "email": {
+        "value": "admin@gmail.com",
+        "valid": true,
+        "options": {
+          "required": true,
+          "email": true
+        }
+      },
+      "subject": {
+        "value": "alskjdfllaksdlfkj",
+        "valid": true,
+        "options": {
+          "required": true
+        }
+      },
+      "content": {
+        "value": "lkjsaldkfjalsjdflkjasjdlkfjksd",
+        "valid": true,
+        "options": {
+          "required": true
+        }
+      },
+      "apicall": true,
+      "id": 1
+    }
+  ]
+}
