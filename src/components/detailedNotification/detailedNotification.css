@@ -1,0 +1,119 @@
+/* comment box */
+.comment-list-box-main{
+    height: 90vh;
+    overflow-y: scroll;
+
+}
+
+.comment-div {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.comment-input {
+    height: 100%;
+    border: none;
+    width: 90%;
+}
+.comment-input:focus-visible {
+    outline: none;
+}
+
+.comment-button {
+    width: 10%;
+}
+/* comment box */
+
+.show-comment-main-div {
+    /* border: 1px solid rgba(0, 0, 0, 0.226); */
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.342);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+/* width */
+.comment-list-box-main::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.comment-list-box-main::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+.comment-list-box-main:hover::-webkit-scrollbar-thumb {
+    background: grey;
+}
+
+.comment-list-box-main::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.comment-parent-div {
+    position: fixed;
+    bottom: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.commented-text-main {}
+
+.commented-text-main .commented-by {
+    font-size: 11px;
+    color: gray;
+}
+
+.commented-text-main .commented-text {
+    width: 90%;
+    /* display: flex;
+    justify-content: left; */
+}
+
+.commented-text-main .commented-date {
+    font-size: 11px;
+    color: gray;
+}
+
+.commented-text-main .text-align-right {
+    text-align: right !important;
+}
+
+.commented-text-main .text-align-left {
+    text-align: left !important;
+}
+
+.static-div-notification {
+    height: 300px;
+}
+
+.classnotification-detail-title {
+    position: sticky;
+    top: 56px;
+}
+
+.classnotification-detail-date {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.comment-box-button-main {
+    padding: 60px 5px;
+}
+
+.comment-box-button-main button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    font-size: 25px;
+}

@@ -1,0 +1,41 @@
+/* width */
+#root::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+#root::-webkit-scrollbar-track {
+  background: red !important;
+}
+
+/* Handle */
+#root::-webkit-scrollbar-thumb {
+  background: red !important;
+}
+
+/* Handle on hover */
+#root::-webkit-scrollbar-thumb:hover {
+  background: red !important;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  /* background-image: url('./assests/education-bg.avif'); */
+  /* background-image: url('./assests/edu1.jpg'); */
+  /* background-color: #75A3C4; */
+  /* background-color: #BBDFF5; */
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.70;
+  z-index: -1;
+  background-attachment: fixed;
+}

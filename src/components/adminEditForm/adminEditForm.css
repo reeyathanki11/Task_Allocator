@@ -1,0 +1,9 @@
+/* .input-box-border-remove{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0%;
+} */
+.input-box-border-remove:focus{
+    box-shadow: none;
+}

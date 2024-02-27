@@ -1,0 +1,27 @@
+.sidebarcommon {
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width:767px) {
+    .sidebarcommon{
+        width: 80vw;
+    }
+}
+.sidebarcommon button {
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+.sidebarcommon div {
+    z-index: 999;
+    cursor: pointer;
+}

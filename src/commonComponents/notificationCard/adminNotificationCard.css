@@ -1,0 +1,42 @@
+.notification-card-main {
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.notification-card-main:hover {
+    box-shadow: 0px 0px 10px gray;
+    /* border: none; */
+}
+
+.notification-card-title {
+    display: inline-block;
+    width: 220px;
+}
+
+.notification-card-main:hover .notification-card-title {
+    font-weight: bold;
+}
+
+.notification-card-date {
+    display: block;
+}
+
+.notification-card-main:hover .notification-card-date {
+    display: none;
+}
+
+.notification-card-button {
+    display: none;
+}
+
+.notification-card-main:hover .notification-card-button {
+    display: block;
+}
+
+@media (max-width:900px) {
+    .notification-card-desc {
+        display: none;
+    }
+}
